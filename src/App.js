@@ -11,8 +11,8 @@ function App() {
   console.log(user);
   return (
     <>
-    {
-            !user ? <Login/> : <div className="App">
+    
+             <div className="App">
             <Header />
 
             <div className="app_body">
@@ -21,7 +21,7 @@ function App() {
             <RightSideBar />
             </div>
           </div>
-      }
+      
     
     </>
   );
